@@ -1,36 +1,40 @@
-<!-- File: /app/View/Posts/index.ctp -->
-<h1>Connexion d'un membre</h1>
-<?php echo $this->Html->link(
-    'Se connecter',
-    array('controller' => 'membres', 'action' => 'connex')
-	); ?>
-
-
-<h1>Blog posts</h1>
-<?php echo $this->Html->link(
-    'Ajouter un Membre',
-    array('controller' => 'membres', 'action' => 'add')
-	); 
-	echo $this->Html->link(
-	'Editer un membre',
-	array('controller' => 'membres', 'action' => 'edit')
-	);
-	?>
++<!-- Fichier: /app/View/Membres/index.ctp -->
++
++<h1>Blog membres</h1>
++<p><?php echo $this->Html->link(
++    'Ajouter un Membre',
++    array('action' => 'add')
++); ?></p>
 <table>
     <tr>
-        <th>Id</th>
-        <th>Nom</th>
-        <th>Prénom</th>
+        <th>num_membre</th>
+        <th>prenom_membre</th>
+        <th>nom_membre</th>
     </tr>
 
-    <!-- Here is where we loop through our $posts array, printing out post info -->
+<!-- Ici, nous bouclons sur le tableau $membre afin d'afficher les informations des membres -->
 
     <?php foreach ($membres as $membre): ?>
     <tr>
         <td><?php echo $membre['Membre']['num_membre']; ?></td>
-        <td><?php echo $membre['Membre']['prenom_membre']; ?></td>
-        <td><?php echo $membre['Membre']['nom_membre']; ?></td>
+        <td>
+            <?php echo $membre['Membre']['prenom_membre']; ?>
+        </td>
+		<td>
+            <?php echo $membre['Membre']['nom_membre']; ?>
+        </td>
+        <td>
+            <?php echo $this->Form->postLink(
+                'Supprimer',
+                array('action' => 'delete', $membre['Membre']['num_membre']),
+                array('confirm' => 'Etes-vous sûr ?'));
+            ?>
+            <?php echo $this->Html->link(
+                'Editer',
+                array('action' => 'edit', $membre['Membre']['num_membre'])
+            ); ?>
+        </td> 
     </tr>
     <?php endforeach; ?>
-    <?php unset($membre); ?>
+
 </table>
