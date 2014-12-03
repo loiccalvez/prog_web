@@ -5,7 +5,9 @@ class CoursController extends AppController{
 	public $components = array('Session');
 	
 	public function index() {
-		$this->set('cours',$this->Cour->find('all'));
+		//$this->set('cours',$this->Cour->find('all'));
+		$db=$this->Cour->query("SELECT cours.num_cour, cours.date_cours, cours.horaire_deb, cours.horaire_fin, matieres.nom_matiere, cours.num_edt FROM cours, matieres WHERE (cours.num_matiere = matieres.num_matiere);");
+		$this->set('cours', $db);
 	}
 	
 	public function add() {

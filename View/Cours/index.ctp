@@ -7,11 +7,11 @@
 ); ?></p>
 <table>
     <tr>
-        <th>num_cour</th>
-        <th>date_cours</th>
-        <th>horaire_deb</th>
-		<th>horaire_fin</th>
-		<th>num_matiere</th>
+        <th>Numéro du cours</th>
+        <th>Date</th>
+        <th>Horaire de début</th>
+		<th>Horaire de fin</th>
+		<th>Nom de la matière</th>
 		<th>num_edt</th>
     </tr>
 
@@ -19,31 +19,31 @@
 
     <?php foreach ($cours as $cour): ?>
     <tr>
-        <td><?php echo $cour['Cour']['num_cour']; ?></td>
+        <td><?php echo $cour['cours']['num_cour']; ?></td>
         <td>
-            <?php echo $cour['Cour']['date_cours']; ?>
+            <?php echo $cour['cours']['date_cours']; ?>
         </td>
 		<td>
-            <?php echo $cour['Cour']['horaire_deb']; ?>
+            <?php echo $cour['cours']['horaire_deb']; ?>
         </td>
 		<td>
-            <?php echo $cour['Cour']['horaire_fin']; ?>
+            <?php echo $cour['cours']['horaire_fin']; ?>
         </td>
 		<td>
-            <?php echo $cour['Cour']['num_matiere']; ?>
+            <?php echo $cour['matieres']['nom_matiere']; ?>
         </td>
 		<td>
-            <?php echo $cour['Cour']['num_edt']; ?>
+            <?php echo $cour['cours']['num_edt']; ?>
         </td>
         <td>
             <?php echo $this->Form->postLink(
                 'Supprimer',
-                array('action' => 'delete', $cour['Cour']['num_cour']),
+                array('action' => 'delete', $cour['cours']['num_cour']),
                 array('confirm' => 'Etes-vous sûr ?'));
             ?>
             <?php echo $this->Html->link(
                 'Editer',
-                array('action' => 'edit', $cour['Cour']['num_cour'])
+                array('action' => 'edit', $cour['cours']['num_cour'])
             ); ?>
         </td> 
     </tr>
