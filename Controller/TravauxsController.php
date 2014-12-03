@@ -15,11 +15,11 @@ class TravauxsController extends AppController{
             throw new NotFoundException(__('Invalid membre'));
         }
 
-        $membre = $this->Membre->findById($id);
-        if (!$membre) {
+        $travaux = $this->Travaux->findById($id);
+        if (!$travaux) {
             throw new NotFoundException(__('Invalid membre'));
         }
-        $this->set('travaux', $membre);
+        $this->set('travaux', $travaux);
     }
 	
 	public function mat()
@@ -38,6 +38,24 @@ class TravauxsController extends AppController{
 			$this->Session->setFlash(__('Le travail n a pu être ajouté'));
 
 		}
+	}
+	
+		// Suppression ok
+	public function delete($num_travail) {
+		if ($this->request->is('get')) {
+			throw new MethodNotAllowedException();
+		}
+		if ($this->Travaux->delete($num_travail)) {
+			$this->Session->setFlash(
+				__('Le travail numéro %s a été supprimé.', ($num_travail))
+			);
+			return $this->redirect(array('action' => 'index'));
+		}
+	}
+	
+	public static function rien1()
+	{
+		return 'Salut';
 	}
 }
 ?>

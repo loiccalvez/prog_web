@@ -4,6 +4,9 @@
     array('controller' => 'travauxs', 'action' => 'add')
 	); 
 	?>
+	<?php
+		echo TravauxsController::rien1();
+	?>
 <table>
     <tr>
         <th>Numéro</th>
@@ -22,5 +25,5 @@
         <td><?php echo $travaux['matieres']['nom_matiere']; ?></td>
     </tr>
     <?php endforeach; ?>
-    <?php unset($membre); ?>
+    <?php unset($travaux); ?>
 </table>
