@@ -5,7 +5,9 @@ class BulletinsController extends AppController{
 	public $components = array('Session');
 	
 	public function index() {
-		$this->set('bulletins',$this->Bulletin->find('all'));
+		//$this->set('bulletins',$this->Bulletin->find('all'));
+		$db=$this->Bulletin->query("SELECT bulletins.num_bulletin, bulletins.semestre_bulletin, bulletins.moyenne, membres.nom_membre, membres.prenom_membre FROM bulletins, membres WHERE (bulletins.num_membre = membres.num_membre);");
+		$this->set('bulletins', $db);
 	}
 	
 	public function add() {

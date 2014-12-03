@@ -7,35 +7,39 @@
 ); ?></p>
 <table>
     <tr>
-        <th>num_bulletin</th>
-        <th>semestre_bulletin</th>
-        <th>num_membre</th>
-		<th>moyenne</th>
+        <th>Numéro de bulletin</th>
+        <th>Semestre concerné</th>
+        <th>Nom de l'élève concerné</th>
+		<th>Prénom de l'élève concerné</th>
+		<th>Moyenne</th>
     </tr>
 
 <!-- Ici, nous bouclons sur le tableau $bulletin afin d'afficher les informations des bulletins -->
 
     <?php foreach ($bulletins as $bulletin): ?>
     <tr>
-        <td><?php echo $bulletin['Bulletin']['num_bulletin']; ?></td>
+        <td><?php echo $bulletin['bulletins']['num_bulletin']; ?></td>
         <td>
-            <?php echo $bulletin['Bulletin']['semestre_bulletin']; ?>
+            <?php echo $bulletin['bulletins']['semestre_bulletin']; ?>
         </td>
 		<td>
-            <?php echo $bulletin['Bulletin']['num_membre']; ?>
+            <?php echo $bulletin['membres']['nom_membre']; ?>
         </td>
 		<td>
-            <?php echo $bulletin['Bulletin']['moyenne']; ?>
+            <?php echo $bulletin['membres']['prenom_membre']; ?>
+        </td>
+		<td>
+            <?php echo $bulletin['bulletins']['moyenne']; ?>
         </td>
         <td>
             <?php echo $this->Form->postLink(
                 'Supprimer',
-                array('action' => 'delete', $bulletin['Bulletin']['num_bulletin']),
+                array('action' => 'delete', $bulletin['bulletins']['num_bulletin']),
                 array('confirm' => 'Etes-vous sûr ?'));
             ?>
             <?php echo $this->Html->link(
                 'Editer',
-                array('action' => 'edit', $bulletin['Bulletin']['num_bulletin'])
+                array('action' => 'edit', $bulletin['bulletins']['num_bulletin'])
             ); ?>
         </td> 
     </tr>
