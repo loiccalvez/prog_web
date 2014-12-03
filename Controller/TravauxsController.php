@@ -40,7 +40,31 @@ class TravauxsController extends AppController{
 		}
 	}
 	
-		// Suppression ok
+	public function edit($num_travail = null) {
+		if (!$num_travail) {
+			throw new NotFoundException(__('Le travail est invalide 1'));
+		}
+
+		$travaux = $this->Travaux->findByNumTravail($num_travail);
+		if (!$travaux) {
+			throw new NotFoundException(__('Le travail est invalide 2'));
+		}
+
+		if ($this->request->is(array('post', 'put'))) {
+			$this->Travaux->num_travail = $num_travail;
+			if ($this->Travaux->save($this->request->data)) {
+				$this->Session->setFlash(__('Le travail a été mis à jour.'));
+				return $this->redirect(array('action' => 'index'));
+			}
+			$this->Session->setFlash(__('Impossible de modifier le travail.'));
+		}
+
+		if (!$this->request->data) {
+			$this->request->data = $travaux;
+		}
+	}
+	
+	// Suppression ok
 	public function delete($num_travail) {
 		if ($this->request->is('get')) {
 			throw new MethodNotAllowedException();
@@ -51,11 +75,6 @@ class TravauxsController extends AppController{
 			);
 			return $this->redirect(array('action' => 'index'));
 		}
-	}
-	
-	public static function rien1()
-	{
-		return 'Salut';
 	}
 }
 ?>
