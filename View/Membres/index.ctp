@@ -1,15 +1,14 @@
-+<!-- Fichier: /app/View/Membres/index.ctp -->
-+
-+<h1>Blog membres</h1>
-+<p><?php echo $this->Html->link(
-+    'Ajouter un Membre',
-+    array('action' => 'add')
-+); ?></p>
+<h1>Blog membres</h1>
+<p><?php echo $this->Html->link(
+    'Ajouter un Membre',
+    array('action' => 'add')
+); ?></p>
 <table>
     <tr>
         <th>num_membre</th>
         <th>prenom_membre</th>
         <th>nom_membre</th>
+		<th>Outils</th>
     </tr>
 
 <!-- Ici, nous bouclons sur le tableau $membre afin d'afficher les informations des membres -->
