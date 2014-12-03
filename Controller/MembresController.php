@@ -1,6 +1,6 @@
 <?php
 
-class MembresController extends AppController{
+	class MembresController extends AppController{
 	public $helpers = array('html','form');
 	public $components = array('Session');
 	
@@ -41,7 +41,7 @@ class MembresController extends AppController{
     if (!$this->request->data) {
         $this->request->data = $membre;
     }
-}
+	}
 	
 	public function delete($num_membre) {
     if ($this->request->is('get')) {
