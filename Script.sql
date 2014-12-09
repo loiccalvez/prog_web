@@ -1,4 +1,4 @@
-CREATE DATABASE basek2;
+﻿CREATE DATABASE basek2;
 
 USE basek2;
 
@@ -10,8 +10,8 @@ typ char(20) NOT NULL
 
 CREATE TABLE membres(
 num_membre int AUTO_INCREMENT PRIMARY KEY,
-prenom_membre varchar(30) NOT NULL,
 nom_membre varchar(30) NOT NULL,
+prenom_membre varchar(30) NOT NULL,
 login varchar(20) NOT NULL,
 mdp varchar(20) NOT NULL,
 mail varchar(40),
