@@ -1,0 +1,1228 @@
+2014-11-12 15:32:30 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(3566): Model->setSource('posts')
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\PostsController.php(7): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-11-12 15:35:31 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 15:37:16 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 15:37:18 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 15:37:18 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 15:37:19 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 15:37:19 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 15:37:19 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 15:37:19 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 15:37:20 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 15:37:47 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php, line 7]
+2014-11-12 15:37:47 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 7, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 7, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-12 15:38:50 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php, line 7]
+2014-11-12 15:38:50 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 7, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 7, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-12 15:39:18 Error: [MissingTableException] Table membres for model Membre was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'membres',
+  'class' => 'Membre',
+  'ds' => 'default',
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(3566): Model->setSource('membres')
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(7): Model->find('all')
+#4 [internal function]: MembreController->index()
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-11-12 15:39:59 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-12 15:40:08 Error: [MissingTableException] Table membres for model Membre was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'membres',
+  'class' => 'Membre',
+  'ds' => 'default',
+)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(3566): Model->setSource('membres')
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(7): Model->find('all')
+#4 [internal function]: MembreController->index()
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-11-18 08:48:46 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/view/membres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 08:48:59 Error: [MissingControllerException] Controller class MembresController could not be found.
+Exception Attributes: array (
+  'class' => 'MembresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 09:07:01 Error: Fatal Error (4): syntax error, unexpected 'add' (T_STRING), expecting variable (T_VARIABLE) in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php, line 11]
+2014-11-18 09:07:01 Error: [FatalErrorException] syntax error, unexpected 'add' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Programmes\L...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Programmes\L...', 11, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Programmes\L...', 11, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-18 09:07:37 Error: Fatal Error (4): syntax error, unexpected 'add' (T_STRING), expecting variable (T_VARIABLE) in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php, line 11]
+2014-11-18 09:07:37 Error: [FatalErrorException] syntax error, unexpected 'add' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Programmes\L...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Programmes\L...', 11, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Programmes\L...', 11, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-18 09:27:35 Error: Fatal Error (4): syntax error, unexpected ''message'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Model\Membre.php, line 7]
+2014-11-18 09:27:35 Error: [FatalErrorException] syntax error, unexpected ''message'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Programmes\L...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Programmes\L...', 7, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Programmes\L...', 7, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-18 09:46:26 Error: [MissingControllerException] Controller class MembresController could not be found.
+Exception Attributes: array (
+  'class' => 'MembresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membres/add
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 09:46:50 Error: [MissingControllerException] Controller class MembresController could not be found.
+Exception Attributes: array (
+  'class' => 'MembresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membres/add
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-19 16:59:39 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\View\Membre\index.ctp, line 22]
+2014-11-19 16:59:39 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Programmes\L...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Programmes\L...', 22, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Programmes\L...', 22, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-19 17:00:07 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\View\Membre\index.ctp, line 25]
+2014-11-19 17:00:07 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cakephp/membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Programmes\L...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Programmes\L...', 25, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Programmes\L...', 25, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-19 17:01:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/delete/33
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('count', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2829): Model->find('count', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2610): Model->exists()
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(29): Model->delete('33')
+#9 [internal function]: MembreController->delete('33')
+#10 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-19 17:03:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/delete/33
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('count', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2829): Model->find('count', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2610): Model->exists()
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(29): Model->delete('33')
+#9 [internal function]: MembreController->delete('33')
+#10 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-19 17:03:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/delete/33
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('count', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2829): Model->find('count', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2610): Model->exists()
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(29): Model->delete('33')
+#9 [internal function]: MembreController->delete('33')
+#10 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-19 17:04:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/delete/33
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('count', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2829): Model->find('count', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2610): Model->exists()
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(29): Model->delete('33')
+#9 [internal function]: MembreController->delete('33')
+#10 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-19 17:19:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/delete/33
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('count', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2829): Model->find('count', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2610): Model->exists()
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(29): Model->delete('33')
+#9 [internal function]: MembreController->delete('33')
+#10 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-19 17:30:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/edit/2
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Membre`...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Membre`...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Membre`...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(808): DboSource->query('findById', Array, Object(Membre))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Model->__call('findById', Array)
+#9 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Membre->findById('2')
+#10 [internal function]: MembreController->edit('2')
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#14 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-19 17:32:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/edit/2
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Membre`...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Membre`...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Membre`...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(808): DboSource->query('findById', Array, Object(Membre))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Model->__call('findById', Array)
+#9 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Membre->findById('2')
+#10 [internal function]: MembreController->edit('2')
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#14 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-19 17:32:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/edit/2
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Membre`...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Membre`...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Membre`...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(808): DboSource->query('findById', Array, Object(Membre))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Model->__call('findById', Array)
+#9 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Membre->findById('2')
+#10 [internal function]: MembreController->edit('2')
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#14 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-19 17:33:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/edit/2
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Membre`...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Membre`...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Membre`...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(808): DboSource->query('findById', Array, Object(Membre))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Model->__call('findById', Array)
+#9 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Membre->findById('2')
+#10 [internal function]: MembreController->edit('2')
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#14 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-19 17:33:44 Error: [NotFoundException] Invalid membre
+Request URL: /cakephp/membre/edit
+Stack Trace:
+#0 [internal function]: MembreController->edit()
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-19 17:33:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/edit/2
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Membre`...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Membre`...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Membre`...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(808): DboSource->query('findById', Array, Object(Membre))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Model->__call('findById', Array)
+#9 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Membre->findById('2')
+#10 [internal function]: MembreController->edit('2')
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#14 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-19 17:40:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/edit/2
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Membre`...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Membre`...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Membre`...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(808): DboSource->query('findById', Array, Object(Membre))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Model->__call('findById', Array)
+#9 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Membre->findById('2')
+#10 [internal function]: MembreController->edit('2')
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#14 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-19 17:40:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/edit/3
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Membre`...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Membre`...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Membre`...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(808): DboSource->query('findById', Array, Object(Membre))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Model->__call('findById', Array)
+#9 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Membre->findById('3')
+#10 [internal function]: MembreController->edit('3')
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#14 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-19 17:44:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/edit/3
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Membre`...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Membre`...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Membre`...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(808): DboSource->query('findById', Array, Object(Membre))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Model->__call('findById', Array)
+#9 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Membre->findById('3')
+#10 [internal function]: MembreController->edit('3')
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#14 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-19 17:45:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Membre.id' in 'where clause'
+Request URL: /cakephp/membre/edit/3
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Membre`...', Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Membre`...', Array, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Membre`...', false)
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Membre), Array)
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('first', Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(808): DboSource->query('findById', Array, Object(Membre))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Model->__call('findById', Array)
+#9 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreController.php(30): Membre->findById('3')
+#10 [internal function]: MembreController->edit('3')
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembreController), Array)
+#12 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembreController), Object(CakeRequest))
+#14 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 18:26:57 Error: [MissingControllerException] Controller class TravauxqController could not be found.
+Exception Attributes: array (
+  'class' => 'TravauxqController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Travauxq
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:27:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'pronote\'',
+  'enabled' => true,
+)
+Request URL: /cakephp/Travauxs
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(3539): ConnectionManager::getDataSource('default')
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(3566): Model->setSource('travauxes')
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(3368): Model->getDataSource()
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\TravauxsController.php(8): Model->query('SELECT travauxe...')
+#7 [internal function]: TravauxsController->index()
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TravauxsController), Array)
+#9 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TravauxsController), Object(CakeRequest))
+#11 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 18:47:01 Error: Fatal Error (64): Cannot redeclare class Membre in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Model\Groupe.php, line 17]
+2014-11-24 18:47:01 Error: [FatalErrorException] Cannot redeclare class Membre
+Request URL: /cakephp/Groupe
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'D:\Programmes\L...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'D:\Programmes\L...', 17, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'D:\Programmes\L...', 17, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 19:01:14 Error: [MissingControllerException] Controller class MembresController could not be found.
+Exception Attributes: array (
+  'class' => 'MembresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/membres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 19:37:29 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 19:37:54 Error: [MissingControllerException] Controller class MembresController could not be found.
+Exception Attributes: array (
+  'class' => 'MembresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Membres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 19:38:45 Error: [MissingViewException] View file "D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\View\Membres\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\Programmes\\Logiciels\\EasyPHP-DevServer-14.1VC11\\data\\localweb\\cakephp\\app\\View\\Membres\\index.ctp',
+)
+Request URL: /cakephp/Membres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembresController), Object(CakeRequest))
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-02 08:03:42 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-02 08:19:59 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:19:59 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:25:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:25:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:25:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:25:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:26:57 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:26:57 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:27:07 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:27:07 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:33:24 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:33:24 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:33:25 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:33:25 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:36:00 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:36:00 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:36:01 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:36:01 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:41:07 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:41:07 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:41:24 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:41:24 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:41:33 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:41:33 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:45:02 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 8]
+2014-12-02 08:45:02 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:45:18 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 9]
+2014-12-02 08:45:18 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 9, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 9, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:46:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 10]
+2014-12-02 08:46:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:53:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 10]
+2014-12-02 08:53:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:54:03 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 10]
+2014-12-02 08:54:03 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:55:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CourssController.php, line 10]
+2014-12-02 08:55:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:55:40 Error: [MissingControllerException] Controller class CourssController could not be found.
+Exception Attributes: array (
+  'class' => 'CourssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-02 08:55:49 Error: [MissingControllerException] Controller class CoursController could not be found.
+Exception Attributes: array (
+  'class' => 'CoursController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-02 08:56:13 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CoursController.php, line 10]
+2014-12-02 08:56:13 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:56:42 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CoursController.php, line 10]
+2014-12-02 08:56:42 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:57:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CoursController.php, line 10]
+2014-12-02 08:57:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 10, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:57:33 Error: Fatal Error (4): syntax error, unexpected ''horaire_fin'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Model\Cour.php, line 14]
+2014-12-02 08:57:33 Error: [FatalErrorException] syntax error, unexpected ''horaire_fin'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Programmes\L...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Programmes\L...', 14, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Programmes\L...', 14, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:57:53 Error: Fatal Error (4): syntax error, unexpected ''num_matiere'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Model\Cour.php, line 18]
+2014-12-02 08:57:53 Error: [FatalErrorException] syntax error, unexpected ''num_matiere'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Programmes\L...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Programmes\L...', 18, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Programmes\L...', 18, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 08:58:01 Error: [MissingTableException] Table cours for model Cour was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cours',
+  'class' => 'Cour',
+  'ds' => 'default',
+)
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(3566): Model->setSource('cours')
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CoursController.php(10): Model->find('all')
+#4 [internal function]: CoursController->index()
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CoursController), Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CoursController), Object(CakeRequest))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-12-02 09:06:39 Error: [MissingViewException] View file "D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\View\Cours\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\Programmes\\Logiciels\\EasyPHP-DevServer-14.1VC11\\data\\localweb\\cakephp\\app\\View\\Cours\\index.ctp',
+)
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(CoursController), Object(CakeRequest))
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-02 09:20:47 Error: [MissingActionException] Action EdtsController::Ylos() could not be found.
+Exception Attributes: array (
+  'controller' => 'EdtsController',
+  'action' => 'Ylos',
+)
+Request URL: /cakephp/Edts/Ylos
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(EdtsController), Object(CakeRequest))
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-02 09:20:55 Error: [MissingControllerException] Controller class YolosController could not be found.
+Exception Attributes: array (
+  'class' => 'YolosController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Yolos
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-02 09:42:36 Error: [MissingControllerException] Controller class MembreMatieresController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreMatieresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Membre_Matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-02 09:44:44 Error: [MissingControllerException] Controller class MembreMatieresController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreMatieresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Membre_Matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-02 09:45:01 Error: [MissingControllerException] Controller class MembreMatieresController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreMatieresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Membre_Matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-02 09:45:02 Error: [MissingControllerException] Controller class MembreMatieresController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreMatieresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Membre_Matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-02 09:45:03 Error: [MissingControllerException] Controller class MembreMatieresController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreMatieresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Membre_Matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-02 09:45:17 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembreMatieresController.php, line 8]
+2014-12-02 09:45:17 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Membre_Matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 09:51:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembrematieresController.php, line 8]
+2014-12-02 09:51:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Membre_Matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 09:51:16 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembrematieresController.php, line 8]
+2014-12-02 09:51:16 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Membre_Matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 09:51:17 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembrematieresController.php, line 8]
+2014-12-02 09:51:17 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Membre_Matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 09:53:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembrematieresController.php, line 8]
+2014-12-02 09:53:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Membre_Matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-02 09:54:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\MembrematieresController.php, line 8]
+2014-12-02 09:54:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/Membre_Matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 8, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-03 10:08:49 Error: [MissingControllerException] Controller class MembreController could not be found.
+Exception Attributes: array (
+  'class' => 'MembreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Membre
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-03 10:09:56 Error: [MissingControllerException] Controller class CourssController could not be found.
+Exception Attributes: array (
+  'class' => 'CourssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Courss
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-03 10:37:31 Error: [MissingControllerException] Controller class MatièresController could not be found.
+Exception Attributes: array (
+  'class' => 'MatièresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/mati%C3%A8res
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-03 10:37:36 Error: [MissingControllerException] Controller class MatieresController could not be found.
+Exception Attributes: array (
+  'class' => 'MatieresController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/matieres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-03 10:38:07 Error: [MissingControllerException] Controller class BuletinsController could not be found.
+Exception Attributes: array (
+  'class' => 'BuletinsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/buletins
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-03 10:38:35 Error: [MissingControllerException] Controller class StagesController could not be found.
+Exception Attributes: array (
+  'class' => 'StagesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/stages
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-03 11:08:31 Error: [MissingViewException] View file "D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\View\Bulletins\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\Programmes\\Logiciels\\EasyPHP-DevServer-14.1VC11\\data\\localweb\\cakephp\\app\\View\\Bulletins\\delete.ctp',
+)
+Request URL: /cakephp/Bulletins/delete
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(BulletinsController), Object(CakeRequest))
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-03 11:08:40 Error: [MissingControllerException] Controller class BulletinController could not be found.
+Exception Attributes: array (
+  'class' => 'BulletinController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/bulletin
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-03 11:17:10 Error: [MissingControllerException] Controller class CorusController could not be found.
+Exception Attributes: array (
+  'class' => 'CorusController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Corus
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-03 11:22:41 Error: Fatal Error (1): Call to a member function query() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CoursController.php, line 9]
+2014-12-03 11:22:41 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 9, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 9, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-03 11:23:00 Error: Fatal Error (1): Call to a member function query() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CoursController.php, line 9]
+2014-12-03 11:23:00 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 9, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 9, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-03 11:23:17 Error: Fatal Error (1): Call to a member function query() on a non-object in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\CoursController.php, line 9]
+2014-12-03 11:23:17 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\Programmes\L...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\Programmes\L...', 9, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\Programmes\L...', 9, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-03 11:24:40 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Utility\Debugger.php, line 482]
+2014-12-03 11:24:40 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'D:\Programmes\L...', 482)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'D:\Programmes\L...', 482, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'D:\Programmes\L...', 482, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-03 11:25:21 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Utility\Debugger.php, line 482]
+2014-12-03 11:25:21 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'D:\Programmes\L...', 482)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'D:\Programmes\L...', 482, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'D:\Programmes\L...', 482, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-03 11:28:00 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Utility\Debugger.php, line 482]
+2014-12-03 11:28:00 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cakephp/Cours
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'D:\Programmes\L...', 482)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'D:\Programmes\L...', 482, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'D:\Programmes\L...', 482, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-03 11:30:30 Error: [NotFoundException] Membre invalide
+Request URL: /cakephp/membres/edit
+Stack Trace:
+#0 [internal function]: MembresController->edit()
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(MembresController), Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(MembresController), Object(CakeRequest))
+#4 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-03 11:39:53 Error: [MissingControllerException] Controller class CursController could not be found.
+Exception Attributes: array (
+  'class' => 'CursController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Curs
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-03 11:49:34 Error: Fatal Error (4): syntax error, unexpected ')' in [D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\View\Membres\index.ctp, line 7]
+2014-12-03 11:49:34 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakephp/Membres
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\Programmes\L...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\Programmes\L...', 7, Array)
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\Programmes\L...', 7, Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-09 18:58:39 Error: [MissingControllerException] Controller class BakeController could not be found.
+Exception Attributes: array (
+  'class' => 'BakeController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Bake
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-10 14:16:37 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-10 14:33:13 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-10 14:34:14 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(3566): Model->setSource('users')
+#1 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\Controller\UsersController.php(8): Model->find('all')
+#4 [internal function]: UsersController->index()
+#5 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 D:\Programmes\Logiciels\EasyPHP-DevServer-14.1VC11\data\localweb\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
