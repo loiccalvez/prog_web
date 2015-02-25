@@ -1,4 +1,4 @@
-	<?php echo $this->Form->create('User');
+	<?php echo $this->Form->create('Membre');
 	echo $this->Form->input('login', array(
 		'type' => 'text',
 		'label' => 'Utilisateur')

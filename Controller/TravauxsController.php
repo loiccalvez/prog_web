@@ -41,7 +41,7 @@ class TravauxsController extends AppController{
 	}
 	
 	public function edit($num_travail = null) {
-		if (!$num_travail) {
+		if (!$num_travail){
 			throw new NotFoundException(__('Le travail est invalide 1'));
 		}
 

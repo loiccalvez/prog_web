@@ -3,37 +3,24 @@
 class Amphi extends AppModel {
 	public $primaryKey = 'num_amphi';
 	public $validate = array(
-	
         'date_amphi' => array(
             'rule' => 'notEmpty',
-			'required' => true,
-			'message' => 'Remplissez ce champ !',
-			'last' => false
+			'message' => 'ca bug pls'
         ),
-		
         'deb_amphi' => array(
             'rule' => 'notEmpty',
-			'required' => true,
-			'message' => 'Remplissez ce champ !',
-			'last' => false
+			'message' => 'ca bug pls'
         ),
-		
         'fin_amphi' => array(
             'rule' => 'notEmpty',
-			'required' => true,
-			'message' => 'Remplissez ce champ !',
-			'last' => false
+			'message' => 'ca bug pls'
         ),
-		
         'num_matiere' => array(
-           'regle_1' => array(
-			'rule'    => array('comparison', '<', 111),
-			'required' => true,
-			'message' => 'matière inexistante !',
-			'last' => false
-			),
-		)
+            'rule' => 'notEmpty',
+			'message' => 'ca bug pls'
+        )
     );
+
 
 }
 

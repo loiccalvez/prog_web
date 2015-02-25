@@ -40,6 +40,14 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<div id="header">
 			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
 		</div>
+		
+			<!-- Concerne l'insertion du menu. Rajoutée par Loïc-->
+			<div class="menu">
+				<h3>Menu</h3>
+				<?php echo $this->element('menu'); ?>
+			</div>
+
+		
 		<div id="content">
 
 			<?php echo $this->Session->flash(); ?>

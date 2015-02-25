@@ -28,22 +28,10 @@ class SessionsSchema extends CakeSchema {
 
 	public $name = 'Sessions';
 
-/**
- * Before callback.
- *
- * @param array $event Schema object properties
- * @return bool Should process continue
- */
 	public function before($event = array()) {
 		return true;
 	}
 
-/**
- * After callback.
- *
- * @param array $event Schema object properties
- * @return void
- */
 	public function after($event = array()) {
 	}
 

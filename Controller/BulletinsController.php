@@ -22,40 +22,40 @@ class BulletinsController extends AppController{
 	}
 	
 	public function edit($num_bulletin = null) {
-    if (!$num_bulletin) {
-        throw new NotFoundException(__('Bulletin invalide'));
-    }
+		if (!$num_bulletin) {
+			throw new NotFoundException(__('Bulletin invalide'));
+		}
 
-    $bulletin = $this->Bulletin->findByNumBulletin($num_bulletin);
-    if (!$bulletin) {
-        throw new NotFoundException(__('Bulletin invalide'));
-    }
+		$bulletin = $this->Bulletin->findByNumBulletin($num_bulletin);
+		if (!$bulletin) {
+			throw new NotFoundException(__('Bulletin invalide'));
+		}
 
-    if ($this->request->is(array('post', 'put'))) {
-        $this->Bulletin->num_bulletin = $num_bulletin;
-        if ($this->Bulletin->save($this->request->data)) {
-            $this->Session->setFlash(__('Le bulletin a été mis à jour.'));
-            return $this->redirect(array('action' => 'index'));
-        }
-        $this->Session->setFlash(__('Impossible de modifier le bulletin.'));
-    }
+		if ($this->request->is(array('post', 'put'))) {
+			$this->Bulletin->num_bulletin = $num_bulletin;
+			if ($this->Bulletin->save($this->request->data)) {
+				$this->Session->setFlash(__('Le bulletin a été mis à jour.'));
+				return $this->redirect(array('action' => 'index'));
+			}
+			$this->Session->setFlash(__('Impossible de modifier le bulletin.'));
+		}
 
-    if (!$this->request->data) {
-        $this->request->data = $bulletin;
-    }
-}
+		if (!$this->request->data) {
+			$this->request->data = $bulletin;
+		}
+	}
 	
 	public function delete($num_bulletin) {
-    if ($this->request->is('get')) {
-        throw new MethodNotAllowedException();
-    }
-    if ($this->Bulletin->delete($num_bulletin)) {
-        $this->Session->setFlash(
-            __('Le bulletin avec num_bulletin : %s a été supprimé.', h($num_bulletin))
-        );
-        return $this->redirect(array('action' => 'index'));
-    }
-}
+		if ($this->request->is('get')) {
+			throw new MethodNotAllowedException();
+		}
+		if ($this->Bulletin->delete($num_bulletin)) {
+			$this->Session->setFlash(
+				__('Le bulletin avec num_bulletin : %s a été supprimé.', h($num_bulletin))
+			);
+			return $this->redirect(array('action' => 'index'));
+		}
+	}
 }
 
 ?>

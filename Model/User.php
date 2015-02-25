@@ -1,19 +1,27 @@
 <?php
+App::uses('AppModel', 'Model');
 
 class User extends AppModel {
-	public $primaryKey = 'num_user';
-	public $validate = array(
-        'nom_membre' => array(
-            'rule' => 'notEmpty',
-			'message' => 'ca bug pls'
+    public $name = 'User';
+    public $validate = array(
+        'username' => array(
+            'required' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'Un nom d\'utilisateur est requis'
+            )
         ),
-        'prenom_membre' => array(
-            'rule' => 'notEmpty',
-			'message' => 'ca bug pls'
+        'password' => array(
+            'required' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'Un mot de passe est requis'
+            )
+        ),
+        'role' => array(
+            'valid' => array(
+                'rule' => array('inList', array('admin', 'auteur')),
+                'message' => 'Merci de rentrer un rôle valide',
+                'allowEmpty' => false
+            )
         )
     );
-
-
-}
-
-?>
+}?>

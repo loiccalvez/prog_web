@@ -7,11 +7,11 @@
 ); ?></p>
 <table>
     <tr>
-        <th>Numéro d'amphi</th>
-        <th>Date de l'amphi</th>
-        <th>Horaire de début</th>
-        <th>Horaire de fin</th>
-        <th>Est-ce que l'amphi est un partiel ?</th>
+        <th>num_amphi</th>
+        <th>date_amphi</th>
+        <th>deb_amphi</th>
+        <th>fin_amphi</th>
+        <th>partiel</th>
     </tr>
 
 <!-- Ici, nous bouclons sur le tableau $amphi afin d'afficher les informations des membres -->

@@ -1,68 +1,43 @@
 <?php
+App::uses('AppModel', 'Model');
+App::uses('SimplePasswordHasher', 'Controller/Component/Auth');	
+class Membre extends AppModel{
 
-class Membre extends AppModel {
-	public $primaryKey = 'num_membre';
-	public $validate = array(
+	public $primaryKey='num_membre';
+	public $useTable = 'membres';
 	
-        'nom_membre' => array(
-           'regle_1' => array(
-            'rule' => 'notEmpty',
-			'required' => true,
-			'message' => 'Remplissez ce champ !',
-			'last' => false
-			),
-			'regle_2' => array(
-			'rule'    => array('minLength', '5'),
-			'required' => true,
-			'message' => '5 caractères minimum !',
-			'last' => false
-			),
-			'regle_3' => array(
-            'rule'    => 'alphaNumeric',
-			'required' => true,
-            'message' => 'Pas de caractères spéciaux !',
-			'last' => false
-			)
+	// V�rification formulaire
+	public $name = 'Membre';
+    public $validate = array(
+        'username' => array(
+            'required' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'Un nom d\'utilisateur est requis'
+            )
         ),
-		
-        'prenom_membre' => array(
-           'regle_1' => array(
-            'rule' => 'notEmpty',
-			'required' => true,
-			'message' => 'Remplissez ce champ !',
-			'last' => false
-			),
-			'regle_2' => array(
-			'rule'    => array('minLength', '3'),
-			'required' => true,
-			'message' => '3 caractères minimum !',
-			'last' => false
-			),
-			'regle_3' => array(
-            'rule'    => 'alphaNumeric',
-			'required' => true,
-            'message' => 'Pas de caractères spéciaux !',
-			'last' => false
-			)
+        'password' => array(
+            'required' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'Un mot de passe est requis'
+            )
         ),
-		
-		'num_groupe' => array(
-           'regle_1' => array(
-            'rule' => 'notEmpty',
-			'required' => true,
-			'message' => 'Remplissez ce champ !',
-			'last' => false
-			),
-           'regle_2' => array(
-			'rule'    => array('comparison', '<', 17),
-			'required' => true,
-			'message' => 'groupe inexistant !',
-			'last' => false
-			)
-		),
+        'num_groupe' => array(
+            'valid' => array(
+                'rule' => array('inList', array('11', '16')),
+                'message' => 'Merci de rentrer un r�le valide',
+                'allowEmpty' => false
+            )
+        )
     );
-
-
+	
+	public function beforeSave($options = array()) {
+		if (isset($this->data[$this->alias]['password'])) {
+			$passwordHasher = new SimplePasswordHasher();
+			$this->data[$this->alias]['password'] = $passwordHasher->hash(
+				$this->data[$this->alias]['password']
+			);
+		}
+		return true;
+	}
 }
-
 ?>

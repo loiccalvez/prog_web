@@ -5,9 +5,7 @@ class AmphisController extends AppController{
 	public $components = array('Session');
 	
 	public function index() {
-		//$this->set('amphis',$this->Amphi->find('all'));
-		$db=$this->Travaux->query("SELECT amphis.num_amphi, amphis.date_amphi, amphis.deb_amphi, amphis.fin_amphi, amphis.partiel, matieres.nom_matiere FROM amphis, matieres WHERE (amphis.num_matiere = matieres.num_matiere);");
-		$this->set('travauxs', $db);
+		$this->set('amphis',$this->Amphi->find('all'));
 	}
 	
 	public function add() {
